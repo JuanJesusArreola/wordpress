@@ -1,0 +1,5 @@
+# Dockerfile para WordPress
+FROM wordpress:latest
+
+# Exponer el puerto 80 para Render
+EXPOSE 80
